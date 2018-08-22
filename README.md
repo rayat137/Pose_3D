@@ -11,10 +11,7 @@ pose estimation", accepted for ECCV 2018. https://arxiv.org/pdf/1711.08585.pdf
 * [tensorflow](https://www.tensorflow.org/) 1.0 or later
 
 
-### To begin with: 
-
-1. Clone this repository
-
+(Documentation to be finished soon)
 
 
 
