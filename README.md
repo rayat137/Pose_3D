@@ -10,6 +10,11 @@ pose estimation", accepted for ECCV 2018. https://arxiv.org/pdf/1711.08585.pdf
 * [h5py](http://www.h5py.org/)
 * [tensorflow](https://www.tensorflow.org/) 1.0 or later
 
+### Training from the scratch
+
+To train from the scratch use the command:
+
+python temporal_3d.py --use_sh --camera_frame --dropout 0.5
 
 (Documentation to be finished soon)
 
