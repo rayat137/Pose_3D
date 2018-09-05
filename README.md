@@ -43,6 +43,16 @@ Do not use the evaluate flag if you want to fine-tune an existing model.
 
 ### Create a movie from a set of images and 2D predictions
 
+We provided a sample set of frames and 2D detections (from stacked-hourglass detector) in the directory `Pose_3D/temporal_3d_release/fed/`. 
+
+If you want to use other detection and images, set the flags --data_2d_path abd --imag_dir appropriately
+
+To create a movie run: 
+
+`python create_movie.py --use_sh --camera_frame 
+
+
+
 
 (Documentation to be finished soon)
 
