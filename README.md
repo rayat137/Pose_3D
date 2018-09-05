@@ -47,9 +47,9 @@ We provided a sample set of frames and 2D detections (from stacked-hourglass det
 
 If you want to use other detection and images, set the flags --data_2d_path abd --imag_dir appropriately
 
-To create a movie run: 
+To create a movie run the command: 
 
-`python create_movie.py --use_sh --camera_frame 
+`python create_movie.py --use_sh --camera_frame` 
 
 
 
