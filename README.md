@@ -18,6 +18,8 @@ To train from the scratch use the command:
 
 `python temporal_3d.py --use_sh --camera_frame --dropout 0.5`
 
+Use the flag --use_sh if you want to use the stacked_hourglass detections. Otherwise omit the flag (for ground truth 2D). 
+
 ### Pre-trained model
 
 You can download a pre-trained model for testing, visualization and fine-tuning from: 
