@@ -56,7 +56,7 @@ You will see visualization like this:
 
 This will produce a visualization similar to this:
 
-![Visualization example](/imgs/viz_example.png?raw=1)
+![Visualization example](//temporal_3d_release/output_results/00041_out.jpg)
 
 
 
