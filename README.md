@@ -51,6 +51,12 @@ To create a movie run the command:
 
 `python create_movie.py --use_sh --camera_frame` 
 
+You will see visualization like this: 
+
+
+This will produce a visualization similar to this:
+
+![Visualization example](/imgs/viz_example.png?raw=1)
 
 
 
