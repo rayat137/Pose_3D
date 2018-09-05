@@ -31,8 +31,13 @@ To evaluate the pre-trained model call:
 
 `python temporal_3d.py --use_sh --camera_frame --dropout 0.5 --load 1798202 --evaluate`
 
-#### Pass the global iteration number (in this case the model is for iteration 1798202) to the load flag to load the model of corresponding iteration.
+In this case, 1798202 passed to the load flag is the global iteration number. Change it if you want to test any of your own trained models. 
 
+### Fine-tune an existing model
+
+Do not use the evaluate flag if you want to fine-tune an existing model. 
+
+`python temporal_3d.py --use_sh --camera_frame --dropout 0.5 --load 1798202`
 
 (Documentation to be finished soon)
 
