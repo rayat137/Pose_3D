@@ -4,6 +4,7 @@ Exploiting temporal information for 3D pose estimation
 This code is released for the paper "Exploiting temporal information for "Exploiting temporal information for 3D human
 pose estimation", accepted for ECCV 2018. https://arxiv.org/pdf/1711.08585.pdf
 
+Please cite our work if you use this code. 
 
 ### Dependencies
 
