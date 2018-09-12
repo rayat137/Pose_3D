@@ -5,8 +5,8 @@ This code is released for the paper "Exploiting temporal information for "Exploi
 pose estimation", accepted for ECCV 2018. https://arxiv.org/pdf/1711.08585.pdf
 
 You can find the demos in the following links: 
-1. https://youtu.be/Cc2ficlalXE
-2. https://youtu.be/jbJNb0aoLYY
+1. https://www.youtube.com/watch?v=Cc2ficlalXE&feature=youtu.be
+2. https://www.youtube.com/watch?v=jbJNb0aoLYY&feature=youtu.be
 3. https://www.youtube.com/watch?v=MVeaen5vGxQ
 
 Please cite our work if you use this code. 
