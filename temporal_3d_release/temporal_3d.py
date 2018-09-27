@@ -294,8 +294,7 @@ def evaluate_batches( sess, model,data_mean_3d, data_std_3d, dim_to_use_3d, dim_
       for j in range(poses3d.shape[0]):
         gt  = np.reshape(dec_out[j,:],[-1,3])
         out = np.reshape(poses3d[j,:],[-1,3])
-        _, Z, T, b, c = procrustes.compute_similarity_transform(gt,out,compute_optimal_scale=False)
-        #out = b*out.dot(T)+c
+        _, Z, T, b, c = procrustes.compute_similarity_transform(gt,out,compute_optimal_scale=True)
         out = Z
         poses3d[j,:] = np.reshape(out,[-1,17*3] )
     # Compute Euclidean distance error per joint
