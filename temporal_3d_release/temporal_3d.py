@@ -268,10 +268,12 @@ def evaluate_batches( sess, model,data_mean_3d, data_std_3d, dim_to_use_3d, dim_
     step_loss, loss_summary, poses3d = model.step( sess, enc_in, dec_out, dp, isTraining=False )
     loss += step_loss
 
-    if not(i==0):
-      enc_in = np.expand_dims(enc_in[FLAGS.seqlen-1,:],axis=0)
-      dec_out =np.expand_dims(dec_out[FLAGS.seqlen-1,:],axis=0)
-      poses3d = np.expand_dims(poses3d[FLAGS.seqlen-1,:],axis=0)
+    if (i==0):
+      dec_out = np.vstack([dec_out[0,:,:], dec_out[1:,FLAGS.seqlen-1,:]])
+      poses3d = np.vstack([poses3d[0,:,:], poses3d[1:,FLAGS.seqlen-1,:]])
+    else:
+      dec_out = np.expand_dims(dec_out[:,FLAGS.seqlen-1,:],axis=0)
+      poses3d = np.expand_dims(poses3d[:,FLAGS.seqlen-1,:],axis=0)
 
     dec_out = np.reshape(dec_out,[-1,(n_joints-1)*3])
     poses3d = np.reshape(poses3d,[-1,(n_joints-1)*3])
