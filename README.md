@@ -26,7 +26,7 @@ To train from the scratch use the command:
 
 Use the flag `--use_sh` if you want to use the stacked_hourglass detections. Otherwise omit the flag (for ground truth 2D). 
 
-### Due to a bug in the evaluation section of our code (see issue #3), our results should be approximately 58.5 mm for protocol 1 and 44 mm for protocol 2 (not 51.9mm and 42.0mm as reported in our paper). We sincerely apologize for our mistake in the code.
+##### Due to a bug in the evaluation section of our code (see issue #3), our results should be approximately 58.5 mm for protocol 1 and 44 mm for protocol 2 (not 51.9mm and 42.0mm as reported in our paper). We sincerely apologize for our mistake in the code.
 
 ### Pre-trained model
 
