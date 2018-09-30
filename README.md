@@ -26,6 +26,8 @@ To train from the scratch use the command:
 
 Use the flag `--use_sh` if you want to use the stacked_hourglass detections. Otherwise omit the flag (for ground truth 2D). 
 
+# Due to a bug in the evaluation section of our code (see issue #3), our results should be approximately 58.5 mm for protocol 1 and 44 mm for protocol 2 (not 51.9mm and 42.0mm as reported in our paper). We sincerely apologize for our mistake in the code.
+
 ### Pre-trained model
 
 You can download a pre-trained model for testing, visualization and fine-tuning from: 
@@ -46,6 +48,7 @@ In this case, 1798202 passed to the load flag is the global iteration number. Ch
 Do not use the evaluate flag if you want to fine-tune an existing model. 
 
 `python temporal_3d.py --use_sh --camera_frame --dropout 0.5 --load 1798202`
+
 
 ### Create a movie from a set of images and 2D predictions
 
