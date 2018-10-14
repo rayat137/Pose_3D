@@ -68,7 +68,6 @@ This will produce a set of visualizations this:
 
 
 
-(Documentation to be finished soon)
 
 
 
