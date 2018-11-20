@@ -19,7 +19,7 @@ Please cite our work if you use this code.
 
 ### Training from the scratch
 
-#### Due to a bug in the evaluation section of our code (see [issue #3](https://github.com/rayat137/Pose_3D/issues/3)), our results should be approximately 58.5 mm for protocol 1 and 44 mm for protocol 2 (not 51.9mm and 42.0mm as reported in our paper). We sincerely apologize for our mistake in the code and thank Lin Jiahao (jiahao.lin@u.nus.edu) for letting us know of the bug. Below is the result on Human3.6M
+#### Due to a bug in the evaluation section of our code (see [issue #3](https://github.com/rayat137/Pose_3D/issues/3)), our results should be approximately 58.5 mm for protocol 1 and 44 mm for protocol 2 (not 51.9mm and 42.0mm as reported in our paper). We sincerely apologize for our mistake in the code and thank Lin Jiahao (jiahao.lin@u.nus.edu) for letting us know of the bug. Below is the result on Human3.6M:
 
 ![Actual_Result](/temporal_3d_release/Actual_result.png)
 
