@@ -9,7 +9,8 @@ Watch our demos:
 3. https://www.youtube.com/watch?v=MVeaen5vGxQ
 
 There is a reimplimentation of our code in gluon/mxnet by [Chuankan Li](https://github.com/lck1201):
-https://github.com/lck1201/seq2seq-3Dpose
+
+1. https://github.com/lck1201/seq2seq-3Dpose
 
 Please cite our work if you use this code. 
 
